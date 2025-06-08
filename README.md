@@ -13,7 +13,7 @@ python3 schem_gen.py sizes <width> <length>
 ```bash
 python3 schem_gen.py sizes <width> <length>
 ```
-- The program will then ask if you want to generate a schematic with the correct sizes (type `y` to proceed)
+- The program will then ask if you want to generate a schematic with the correct sizes (type `y` if you want to proceed)
 
 ## Get initial height
 - Open the program in console mode by using
