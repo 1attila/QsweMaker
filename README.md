@@ -14,6 +14,8 @@ python3 schem_gen.py sizes <width> <length>
 ```bash
 python3 schem_gen.py schem <width> <length>
 ```
+- The program will then ask if you want to know at what height you should place the WE (type `y` if you want to proceed)
+- If the width or length are wrong, the program will suggest new ones and ask if you want to generate a schematic with them (type `y` if you want to proceed)
 
 ## Get initial height
 - Open the program in console mode by using
