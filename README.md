@@ -7,6 +7,8 @@ Schematic maker &amp; guide for the QSWE
 > The schematics generated always have Main station in +z and Return in -z
 ## UI Mode
 
+Recomended. It's: `QsweMaker-V3.exe`
+
 ### Get exact sizes
 - Enter the size that you want
 - Press "Calculate Sizes" button
