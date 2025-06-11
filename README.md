@@ -4,7 +4,7 @@ Schematic maker &amp; guide for the QSWE
 > [!NOTE]
 > Currently the schematic maker can't rotate the WE.
 >
-> The schematics generated always have Main station in +z and Return in -z
+> The schematics generated always have Main station in -z and Return in +z
 ## UI Mode
 
 Recomended. It's: `QsweMaker-V3.exe`
