@@ -1,5 +1,5 @@
 # QsweMaker
-Schematic maker &amp; guide for the QSWE
+Schematic maker &amp; [smooth floor guide](https://github.com/1attila/QsweMaker/tree/main#smooth-floor) for the QSWE
 
 > [!NOTE]
 > Currently the schematic maker can't rotate the WE.
