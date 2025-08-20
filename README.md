@@ -49,3 +49,35 @@ python3 schem_gen.py schem <width> <length>
 ```bash
 python3 schem_gen.py height  <start> <end (defaults to -59)>
 ```
+
+## Smooth floor
+
+> [!NOTE]
+> To get the smooth floor you must place the schematic at the rigth y given by the program!
+
+First of all download the `SmoothFloorSteps` litematic present in this repository.
+
+Each region of the litematic contains the steps you have to take. Enable just 1 region per time.
+
+This is the list of all the regions and what you have to do at each step:
+
+### Steps
+- Step0: Run the World Eater normally.
+- Step1: Stop the World Eater when only 4 layers of the perimeter are left.
+- Step2: Remove the end-gate on the main side and some parts of the logic of both main and return, as shown in the schematic.
+  - Place the 3 redstone blocks at the main side, as shown in the schematic.
+  - Place 2 redstone blocks at the return side, as shown in the schematic.
+- Step3: Remove the first redstone block at the main side to start the World Eater again.
+  - Wait for the sweepers to launch and remove the second redstone block at the main side.
+- Step4: Remove the first redstone block at the return side to start the World Eater.
+  - Build the flying machine at the top of the main side, as shown in the schematic.
+- Step5: Launch the flying machine built in the precedent step to run the dupers.
+  - Build the other flying machine to launch the dupers at the return side. Don't run it yet!
+  - Replace the normal piston at the bottom of the sweepers with sticky pistons.
+  - Build the flying machine at the bottom of the main side to start the sweepers.
+- Step6: Run the machine to start the sweepers.
+- Step7: Launch the flying machine to launch the dupers to the main side.
+
+What is left to do is clear the last layer from liquids. You can do that by hand or with the classic 2x World Eater sweepers.
+
+Congratulations! You have now got a perfect smooth floor!
