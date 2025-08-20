@@ -64,9 +64,10 @@ This is the list of all the regions and what you have to do at each step:
 ### Steps
 - Step0: Run the World Eater normally.
 - Step1: Stop the World Eater when only 4 layers of the perimeter are left.
-- Step2: Remove the end-gate on the main side and some parts of the logic of both main and return, as shown in the schematic.
+- Step2: Remove the AND-gate on the main side and some parts of the logic of both main and return, as shown in the schematic.
   - Place the 3 redstone blocks at the main side, as shown in the schematic.
   - Place 2 redstone blocks at the return side, as shown in the schematic.
+  - Remove the AND-gate on the return side.
 - Step3: Remove the first redstone block at the main side to start the World Eater again.
   - Wait for the sweepers to launch and remove the second redstone block at the main side.
 - Step4: Remove the first redstone block at the return side to start the World Eater.
